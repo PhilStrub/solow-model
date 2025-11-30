@@ -2,7 +2,8 @@
 
 This repository contains the code, data preprocessing pipeline, and empirical analysis developed for a university econometrics project. The goal is to test the empirical validity of the **Solow Growth Model** and explore extensions that improve its explanatory power using modern cross-country data.
 
-This README summarizes the project documented in the accompanying report.  [oai_citation:0‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+This README summarizes the project documented in the accompanying report.  
+See [solow_model.pdf](./solow_model.pdf), page 0.
 
 ---
 
@@ -43,8 +44,7 @@ World Bank indicators used:
    - 2000–2023 averages  
    - 2023 GDP with historical averages of fundamentals
 
-See pages 1–3 of the PDF for details.  
- [oai_citation:1‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+See [solow_model.pdf](./solow_model.pdf), pages 1–3, for details.
 
 ---
 
@@ -63,8 +63,7 @@ Where:
 - $\beta$: elasticity of income w.r.t. saving rate  
 - $\gamma$: elasticity w.r.t. population growth  
 
-Model interpretation and theoretical background appear on pages 1–2.  
- [oai_citation:2‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+Model interpretation and theoretical background appear in [solow_model.pdf](./solow_model.pdf), pages 1–2.
 
 ---
 
@@ -81,8 +80,7 @@ Three regression datasets were tested:
 | **2023 GDP + historical averages** | Best performance; strongest alignment with Solow steady-state logic |
 
 Breusch–Pagan tests indicate heteroskedasticity in most cases.  
-(Results on page 3.)  
- [oai_citation:3‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+(Results in [solow_model.pdf](./solow_model.pdf), page 3.)
 
 ---
 
@@ -101,8 +99,7 @@ Using a **Chow test**, the dataset is divided into:
 - Population growth is positively associated with GDP in OECD group  
 - Savings elasticity is largest for OECD economies  
 
-Interpretation on page 4.  
- [oai_citation:4‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+Interpretation in [solow_model.pdf](./solow_model.pdf), page 4.
 
 ---
 
@@ -121,8 +118,7 @@ $$
 - Preserves significance of core Solow variables  
 - OECD results show weaker coefficients due to multicollinearity and structural differences  
 
-See regression tables on page 5.  
- [oai_citation:5‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+See regression tables in [solow_model.pdf](./solow_model.pdf), page 5.
 
 ---
 
@@ -141,8 +137,7 @@ $$
 $$
 
 A t-test shows the implied coefficient ($\beta = 0.5$) cannot be rejected (p = 0.75), supporting the canonical Solow value of $\alpha = 1/3$.  
-(See page 6.)  
- [oai_citation:6‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
+(See [solow_model.pdf](./solow_model.pdf), page 6.)
 
 ---
 
