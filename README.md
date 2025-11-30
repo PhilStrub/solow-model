@@ -52,16 +52,16 @@ See pages 1–3 of the PDF for details.
 
 The main empirical model is:
 
-\[
+$$
 \ln(\text{gdp}) = \alpha + \beta \cdot \ln(\text{savings}) +
 \gamma \cdot \ln(\text{population growth} + \delta + g) + \varepsilon
-\]
+$$
 
 Where:
 
-- \( \delta + g = 0.05 \), following Mankiw, Romer & Weil (1992)
-- \( \beta \): elasticity of income w.r.t. saving rate  
-- \( \gamma \): elasticity w.r.t. population growth  
+- $\delta + g = 0.05$, following Mankiw, Romer & Weil (1992)
+- $\beta$: elasticity of income w.r.t. saving rate  
+- $\gamma$: elasticity w.r.t. population growth  
 
 Model interpretation and theoretical background appear on pages 1–2.  
  [oai_citation:2‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
@@ -110,9 +110,9 @@ Interpretation on page 4.
 
 Trade (% of GDP) is added as:
 
-\[
+$$
 \text{ltrade} = \ln(\text{trade share})
-\]
+$$
 
 **Findings:**
 
@@ -130,17 +130,17 @@ See regression tables on page 5.
 
 A restricted version of the model imposes:
 
-\[
+$$
 \beta = -\gamma
-\]
+$$
 
 This implies a capital share:
 
-\[
+$$
 \alpha = 1 - \beta = 0.33
-\]
+$$
 
-A t-test shows the implied coefficient (\(\beta = 0.5\)) cannot be rejected (p = 0.75), supporting the canonical Solow value of \( \alpha = 1/3 \).  
+A t-test shows the implied coefficient ($\beta = 0.5$) cannot be rejected (p = 0.75), supporting the canonical Solow value of $\alpha = 1/3$.  
 (See page 6.)  
  [oai_citation:6‡solow_model.pdf](sediment://file_00000000d89471fc90b35860a46e22b1)
 
